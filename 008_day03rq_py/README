@@ -1,0 +1,129 @@
+This is your next "reading quiz."  As with other reading quizzes,
+you should read the following Jupyter notebooks:
+  - "06-Control" 
+  - "07-Functions"
+  - "08-Strings"
+  - "09-FormattingStrings"
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+1. What is the value of x?
+        a = 0
+        b = 10
+        x = b or a
+        print(x)
+
+   A. 0  
+   B. 10  
+   C. False  
+   D. True
+    
+2. (True / False) The Python interpreter has been constructed to 
+   re-order if elif statements so boolean conditions are executed
+   in the correct logical order, irregardless as to how the programmer 
+   listed them.   
+
+   A. True
+   B. False
+   
+3. (True / False) Python guarantees that both expressions with an `and` operator will be evaluated.
+
+   A. True
+   B. False
+
+4. (True/False) A pythons function's header contains the return type 
+   for the function.
+
+   A. True
+   B. False
+
+5. Which of the following statements causes a function to exit and send 
+   a result back to the caller?
+   A. end
+   B. exit
+   C. return
+   D. stop
+   E. yield
+   
+6. (True/False) Comments at the top of a Python function provide help 
+   documentation to others to help use the function.
+
+   A. True
+   B. False
+   
+7. (True/False) Functions in Python always return a value.  
+
+   A. True
+   B. False
+
+8. What does "scope" mean?
+   A. The types of values that a variable can hold. 
+   B. The region of code in which a variable is visible.
+   C. The kinds of problem that a function can solve.
+   D. The amount of domain knowledge required to write a particular program.
+
+9.  What is the difference between printing a value and returning
+    a value?
+    A. Printing a value leaves the current function, while returning
+       a value does not.
+    B. Printing a value gives it to the user, while returning a value
+       gives it to other code for further computation.
+    C. Printing a value only works on strings, while returning a value
+       only works on integers.
+    D. None of the above.
+
+10. Suppose you have the line of code
+
+    a = f(x,y);
+
+    Which of the following best describes how you determine what
+    value to put in the box for "a"?
+
+    A. (1) Look at f to see what mathematical function it is.
+       (2) Work out the math for x and y.
+      (3) Your answer goes in the box for "a".
+    B. (1) Create a frame for f, copying the values of x and y
+           into the boxes named for its parameters.
+       (2) Move the execution arrow into f, and execute code line by line.
+       (3) When your execution arrow reaches a statement of the form
+           print(num)
+           the value that it prints is what goes into the box for "a".
+    C. (1) Look at f to see where it has a statement of the form
+           a = expression
+       (2) Figure out what value that expression has
+       (3) The value you came up with is what goes in the box for "a".
+    D. (1) Create a frame for f, copying the values of x and y
+           into the boxes named for its parameters.
+       (2) Move the execution arrow into f, and execute code line by line.
+       (3) When your execution arrow reaches a statement of the form
+           return expression;
+           the value of that expression is what you will end up
+           putting in the box for "a" (after you destroy the frame,
+           and return the execution arrow to the call site).
+
+11. (True/False) Strings can be changed once the are created. 
+
+   A. True
+   B. False
+
+12. (True/False) Strings can be indexed by negative numbers.
+
+   A. True
+   B. False
+
+13. (True/False) In Python 3, strings are sequences of ASCII characters.
+
+   A. True
+   B. False
+
+14. Which function returns the length of a string:
+   a. len()
+   b. length()
+   c. range()
+   d. size()

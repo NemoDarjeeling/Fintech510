@@ -1,0 +1,54 @@
+Grading at 10/16/2022:16:06:29.129866
+For commit ID 7435c99028d5ccfe0d2455d19fe7a06bc4fdea20
+Grading at Sun Oct 16 12:06:28 PM EDT 2022
+**Testing broken implementation 10 **
+-------------------------------------
+
+incorrect answer for array with negative elements
+**Testing broken implementation 11 **
+-------------------------------------
+
+incorrect answer for array with multiple increasing arrays
+**Testing broken implementation 1 **
+-------------------------------------
+
+incorrect answer for array with multiple equal increasing arrays
+**Testing broken implementation 2 **
+-------------------------------------
+
+incorrect answer for empty array
+**Testing broken implementation 3 **
+-------------------------------------
+
+incorrect answer for array with multiple increasing arrays
+**Testing broken implementation 4 **
+-------------------------------------
+
+incorrect answer for empty array
+**Testing broken implementation 5 **
+-------------------------------------
+
+incorrect answer for array with multiple increasing arrays
+**Testing broken implementation 6 **
+-------------------------------------
+
+incorrect answer for with only decreasing array(s)
+**Testing broken implementation 7 **
+-------------------------------------
+
+incorrect answer for array with multiple increasing arrays
+**Testing broken implementation 8 **
+-------------------------------------
+
+incorrect answer for array with multiple increasing arrays
+**Testing broken implementation 9 **
+-------------------------------------
+
+incorrect answer for array with multiple increasing arrays
+**Testing correct implementation **
+-------------------------------------
+
+
+All test programs were handled correctly
+
+Overall Grade: PASSED

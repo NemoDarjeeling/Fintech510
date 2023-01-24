@@ -1,0 +1,103 @@
+This is your next "reading quiz."  As with other reading quizzes,
+you should read the following Jupyter notebooks:
+  - "20-ClassesAndObjects" 
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+
+1. _____ represents an entity in the real world with its identity and
+   behavior.
+  A. A method
+  B. An object
+  C. A class
+  D. An operator
+
+2. What is @property used for?
+   A. To define a method to access an attribute of an object
+   B. To delete an attribute
+   C. To check if an attribute exists or not
+   D. To define a method to change an attribute of an object
+
+
+3. (True/False) By putting __ in front of an attribute, we prevent code
+   from outside the class definition directly accessing the attribute.
+   A. True
+   B. False
+
+4. Which function overloads the == operator?
+   A. __eq__()
+   B. __equ__()
+   C. __isequal__()
+   D. none of the mentioned
+
+5. What will be the output of the following Python code:
+   class test:
+      def __init__(self,a="Hello World"):
+            self.a=a
+   
+      def display():
+            print(self.a)
+   obj=test()
+   obj.display()
+
+   A. The program has an error because constructor can’t have 
+      default arguments
+   B. Nothing is displayed
+   C. “Hello World” is displayed
+   D. The program contains an error and a stack trace appears
+   
+6. What does built-in function type do in context of classes?
+   A. Returns the object name of any value
+   B. Returns the class name of any value
+   C. Prints the class description of any value
+   D. Determines the filename where the type is defined
+ 
+
+7. Which of the following creates an empty class?
+   A.
+     class A:
+         return
+
+   B.
+     class A:
+         pass
+  
+  C.
+     class A:
+         """ """
+   
+  D. Empty classes cannot be defined in Python
+
+8. What are the methods which begin and end with two underscore 
+   characters called?
+   A. Magic methods
+   B. Built-in methods
+   C. User-defined methods
+   D. Additional methods
+
+9. What is the output of the following code?
+   class demo():
+      def __repr__(self):
+         return '__repr__ built-in function called'
+      def __str__(self):
+         return '__str__ built-in function called'
+      
+   s=demo()
+   print(s)
+
+   A. __str__ built-in function called
+   B. __repr__ built-in function called
+   C. An exception occurs as demo does not have an _init__ method
+   D. Nothing is printed.
+
+10. (True/False) the __del__ method is used to destroy instances of a class
+    and is automatically called at some point when there are no longer any
+    references to that instance (object).
+     A. True
+     B. False

@@ -1,0 +1,16 @@
+Grading at 09/05/2022:13:51:53.621727
+For commit ID cdf700b9b92f72534b4174bd2aa2184fbf2efd08
+Grading at Mon Sep  5 09:51:53 AM EDT 2022
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+Grading at Mon Sep 05 09:51:53  2022
+Test case passed: -5, 5
+Test case passed: 0x123456, 123456
+Test case passed: 0x451215AF, 0x913591AF
+Test case passed: 0, -10.0
+Test case passed: 42, -69
+
+Overall Grade: PASSED

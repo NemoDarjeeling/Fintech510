@@ -1,0 +1,76 @@
+This is your next "reading quiz."  As with other reading quizzes,
+you should read the following Jupyter notebooks:
+  - "10-Lists" 
+  - "11-RandomValues"
+  - "12-Iteration"
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+1. The first index in a list is specified by:
+   A. -1
+   B. 0
+   C. 1
+   D. 100
+   E. size of the list - 1
+   F. size of the list
+   
+2. The last index in a list is specified by:
+   A. -1
+   B. 0
+   C. 1
+   D. 100
+   E. size of the list - 1
+   F. size of the list
+   G. A and E
+   H. A and F
+
+3. Which function returns the number of elements in a list? 
+   A. count()
+   B. length()
+   C. len()
+   D. size()
+
+4. (True/False) 'pop()' removes the an item from the start of the list.
+   A. True
+   B. False
+
+5. Which of the following function adds an item to a list at the end?
+   A. add()
+   B. append()
+   C. extend() 
+   D. put()
+
+6. Why should we explicitly set a fixed value for a random number
+   generator? 
+   A) Ensure we a a random start point for these sequence of random numbers
+   B) Reproduce statistical analysis
+   C) Create fair hands for play poker
+   D) Perform monte carlo simulations 
+    
+7. (True/False) The current date and time makes an effective seed for
+   a random number generator. 
+   A. True
+   B. False
+
+8. (True/False) Generally, while-loops will execute for a fixed number 
+   of iterations and for loops will execute an indeterminate number of times.
+   A. True
+   B. False
+
+9. (True/False) The break statement will cause the loop to exit as soon
+   as the current iteration is complete. 
+   A. True
+   B. False
+
+10. A ________  value stops the current loop processing when the user 
+   has no more items to enter.
+   A. signal
+   B. null
+   C. sentinel
+   D. empty

@@ -1,0 +1,57 @@
+Grading at 09/06/2022:13:28:36.173004
+For commit ID ddc2850a116759940eefc6426184dfe0b65abfa9
+Grading at Tue Sep  6 09:28:36 AM EDT 2022
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+Grading at Tue Sep 06 09:28:36  2022
+=====
+
+Subtotal: $     25.31
+     Tax: $      1.52
+     Tip: $      5.57
+           ==========
+   Total: $     32.40
+-----
+Subtotal: $     25.31
+     Tax: $      1.52
+     Tip: $      5.57
+           ==========
+   Total: $     32.40
+=====
+Found doc string:
+
+used to calculate tax, tip, and total
+    
+=====
+
+Subtotal: $     10.00
+     Tax: $      0.50
+     Tip: $      2.00
+           ==========
+   Total: $     12.50
+-----
+Subtotal: $     10.00
+     Tax: $      0.50
+     Tip: $      2.00
+           ==========
+   Total: $     12.50
+=====
+=====
+
+Subtotal: $      0.00
+     Tax: $      0.00
+     Tip: $      0.00
+           ==========
+   Total: $      0.00
+-----
+Subtotal: $      0.00
+     Tax: $      0.00
+     Tip: $      0.00
+           ==========
+   Total: $      0.00
+=====
+
+Overall Grade: PASSED

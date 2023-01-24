@@ -1,0 +1,99 @@
+This is your final "reading quiz" for the Python   As with other reading quizzes,
+you should read the following Jupyter notebook:
+  - "21-ClassesAndObjects-Inheritance" 
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+
+1. Which of these is a common tool that software engineers use to describe the
+   design of their classes?
+   A. XML inheritance trees.
+   B. HTML class refinements.
+   C. CDML hierarchies.
+   D. UML diagrams.
+
+2. What will be the output of the following Python code?
+   class Test:
+      def __init__(self):
+         self.x = 0
+   class Derived_Test(Test):
+      def __init__(self):
+         Test.__init__(self)
+         self.y = 1
+
+   b = Derived_Test()
+   print(b.x,b.y)
+
+   A. Syntax error in the code
+   B. The program runs fine but nothing is printed
+   C. 1 0
+   D. 0 1
+
+
+3. What will be the output of the following Python code?
+   class A:
+      def one(self):
+         return self.two()
+   
+      def two(self):
+         return 'A'
+   
+   class B(A):
+      def two(self):
+         return 'B'
+
+   obj1=A()
+   obj2=B()
+   print(obj1.two(),obj2.two())
+
+   A. A A
+   B. A B
+   C. B B 
+   D. An exception occurs
+
+4. In an inheritance relationship, the ______ is the specialized class.
+   A. superclass
+   B. subclass
+   c. worker class
+   d. abstract class
+
+5. (True/False) Polymorphism allows us to send the same message 
+   (call a method) without knowing the exact type of the receiving object.
+   A. True
+   B. False
+
+6. (True/False) Within an initializer methods (`__init__`), it is not 
+   necessary to call the parent's initializer method as Python 
+   implicitly makes this call.
+    A. True
+    B. False
+
+7. Which of the following statements is not true about inheritance?
+   A. Inheritance represents an "is a" relationships
+   B. Classes can inherit from multiple parent class in Python.
+   C. Inheritance allows us to inherit attributes from a child class.
+   D. Inheritance provide another mechanism for code reuse.
+
+ 8. ____ ensures a class always appears before its parent and in the
+   case of multiple parents, the order occurs left to right when
+   determining which definition to use for a particular method.
+   A. Multilevel resolution order
+   B. Method resolution order
+   C. Multiple resolution order
+   D. Multiple resulution operator
+
+9. Mixins represent an "is a" relationship between classes.
+   A. True
+   B. False
+
+10. Which of the follow class definitions is correct
+   A. class Employee extends Person:
+   B. class Employee inherits from Person:
+   C. class Employee (Person):
+   C. class Employee uses Person:

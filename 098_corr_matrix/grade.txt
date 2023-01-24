@@ -1,0 +1,56 @@
+Grading at 11/15/2022:13:43:07.561966
+For commit ID c8f24e1ac0434bd35dbcf79f20c258d25072c776
+Grading at Tue Nov 15 08:42:57 AM EST 2022
+make: 'correl_matrix' is up to date.
++-----------------------------------------------------------------------+
+Test case 1
+please input filename
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 2
+incorrect command line length
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 3
+file open fails
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 4
+missing (one) asset name or (a column of) asset prices
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 5
+null price in one column of the first row
+Your program successfully indicated a failure case
+                                                         [5/5]
++-----------------------------------------------------------------------+
+Test case 6
+Your file matched the expected output
+                                                         [11/11]
++-----------------------------------------------------------------------+
+Test case 7
+Your file matched the expected output
+                                                         [11/11]
++-----------------------------------------------------------------------+
+Test case 8
+Your file matched the expected output
+                                                         [11/11]
++-----------------------------------------------------------------------+
+Test case 9
+Your file matched the expected output
+                                                         [11/11]
++-----------------------------------------------------------------------+
+Test case 10
+Your file matched the expected output
+                                                         [11/11]
++-----------------------------------------------------------------------+
+Test case 11
+Your file matched the expected output
+                                                         [10/10]
++-----------------------------------------------------------------------+
+
+Overall Grade: 100

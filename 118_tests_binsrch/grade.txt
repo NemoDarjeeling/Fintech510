@@ -1,0 +1,70 @@
+Grading at 12/04/2022:04:04:03.920751
+For commit ID c817c1abc939d5c661b0f07e05baafae70e830f9
+Grading at Sat Dec  3 11:03:56 PM EST 2022
+**Testing broken implementation 1.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 1 **
+-------------------------------------
+
+
+**Testing broken implementation 2.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 2 **
+-------------------------------------
+
+
+**Testing broken implementation 3.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+
+**Testing broken implementation 4.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 4 **
+-------------------------------------
+
+
+**Testing broken implementation 5.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 5 **
+-------------------------------------
+
+
+**Testing broken implementation 6.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 6 **
+-------------------------------------
+
+
+**Testing broken implementation 7.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 7 **
+-------------------------------------
+
+
+**Testing broken implementation 8.dbg **
+-------------------------------------
+
+
+**Testing broken implementation 8 **
+-------------------------------------
+
+
+Your tests identified the problems with all broken programs
+
+Overall Grade: PASSED

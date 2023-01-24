@@ -1,0 +1,36 @@
+Grading at 09/19/2022:23:53:17.756377
+For commit ID 0bdeff7193f0cc2ea5787ff272dca8661922b972
+Grading at Mon Sep 19 07:53:17 PM EDT 2022
+Traceback (most recent call last):
+  File "/home/ft510db/graderbase/work/hy204.031_break_encrypt_py.vaaIg8/breaker.py", line 47, in <module>
+    key = breaker(f)
+  File "/home/ft510db/graderbase/work/hy204.031_break_encrypt_py.vaaIg8/breaker.py", line 15, in breaker
+    is_e = dict_letter_sorted[0][0]
+IndexError: list index out of range
+...Traceback (most recent call last):
+  File "/home/ft510db/graderbase/work/hy204.031_break_encrypt_py.vaaIg8/breaker.py", line 46, in <module>
+    with open(argv[1]) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'test_i_am_not_here'
+.....
+----------------------------------------------------------------------
+Ran 8 tests in 0.359s
+
+OK
+Grading at Mon Sep 19 19:53:17  2022
+Return code testing: Test_empty_file
+Expected answer: 1
+testing commonad line arguments are validated
+Return code testing: Test_no_top_freq
+Expected answer: 1
+Return code testing: Test_nonexistent_file
+Expected answer: 1
+Testing: README_KEY_0
+Expected answer: 0
+Testing: README_KEY_1
+Expected answer: 1
+Testing: README_KEY_14
+Expected answer: 14
+Testing: README_KEY_25
+Expected answer: 25
+
+Overall Grade: PASSED

@@ -1,0 +1,27 @@
+Grading at 09/15/2022:19:22:21.101314
+For commit ID cc5e9d3c04eb3f7dcd9ad79fefae472a70cd19ad
+Grading at Thu Sep 15 03:22:21 PM EDT 2022
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+Grading at Thu Sep 15 15:22:21  2022
+Testing:  443
+Testing:  10
+Testing:  1033
+Testing:  99
+Testing:  188.41
+Testing:  0
+Testing:  0.99
+SCORE: 90.0
+Found doc string:
+
+return the change with minimum number of bills, with mc_rec doing the recursion part                                                                           
+    
+Found doc string:
+                                                                       
+use change from the previous function to print results in format                   
+    
+
+Overall Grade: PASSED

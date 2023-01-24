@@ -1,0 +1,107 @@
+This is your third "reading quiz."  As with other reading quizzes,
+you should read the following Jupyter notebooks:
+  - "03-Types,Values,Variables,Names" 
+  - "04-Booleans,Numbers,Operations"
+  - "05-BasicInputAndOutput"
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+1. Which of the following could be represented with a "float" but not
+   with an "int"?
+
+   A. 1000
+   B. -42
+   C. 4.2
+   D. 0
+
+2. (True/False) Variable names can start with a letter or an underscore.
+
+   A. True
+   B. False
+
+3. Objects track the following information:
+
+   A. State
+   B. Behavior
+   C. Identity
+   D. Type
+   E. A,B,C
+   F. All of the above
+
+4. Which built-in function  displays variables and literals to the screen?
+
+   A. help()
+   B. display()
+   C. print()
+   D. output()
+
+5. (True/False) In Python, it is not possible to store a different type 
+   in a variable once it is first used as another type.
+
+   A. True
+   B. False
+
+6. (True/False) X and x are treated as the same variable identifier in
+   Python.
+
+   A. True
+   B. False
+
+7. (True/False) Ints have limits to how big or small their numbers may 
+   be in Python. 
+
+   A. True
+   B. False
+
+8. (True/False) Floats have limits to how big or small their numbers may 
+   be in Python. 
+
+   A. True
+   B. False
+
+9. Fragments of code that calculate new values are called:
+   A. assignment statements
+   B. clauses
+   C. expressions
+   d. identifiers
+
+10. What does "hex" mean?
+
+   A. Base 4
+   B. Base 8
+   C. Base 16
+   D. Base 64
+   
+11. Which of the following are represented numerically?
+   
+   A. Images
+   B. Sound
+   C. Video
+   D. All of the above
+
+12. What is the type of this expression?   5 + 2 + 34 + 4/2
+   A. int
+   B. float
+   C. str
+
+13. What is the type of this expression?  5+ 8//2
+   a. int
+   b. float
+   c. str
+
+14. (True/False) The print() function takes an indeterminate number of 
+    arguments.  
+
+15. How are comments signified in Python:
+   A. Anything between /* and */
+   B. Anything between /** and **/
+   C. Anything from // to the end of the line
+   D. Anything from # to the end of the line
+   E. C and E 
+ 

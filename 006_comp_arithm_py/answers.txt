@@ -1,0 +1,8 @@
+int 3
+float 7.4
+float 2.5
+float 3.65
+int 1
+int 4294967300
+int 2147483652
+float 1.0

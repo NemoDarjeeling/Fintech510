@@ -1,0 +1,23 @@
+This problem is intended to help you practice translating
+from handwritten algorithms to C code.
+Here is what you need to do:
+
+ (1) Review your algorithm from AoP problem 1.8 [page 21]
+     (as solved during the 'algorithm' assignment)
+ (2) Review your Python function for solving the AoP problem
+     (as solved during the 'algorithm_py' assignment)
+ (3) Write a C function, 'series18(int N);' that computes
+     and prints the correct output, e.g.:
+     > series18(1)
+     -1 0 3
+     > series18(3)
+     -9 -8 -5 0 7 16 27 40 55
+
+ (4) Test the code, make sure it works for, e.g.  N=6, N=7, and N=10.
+
+ (5) Put your function in a file  "series18.py", and put your answers
+    for N=1, 5, 7, and 10 in a file answers.txt, add them to git, commit, 
+    push, and request grading.
+
+
+

@@ -1,0 +1,153 @@
+main algorithm for efficiency frontier(test and grade no included in this part)
+
+suppose there are n assets.
+
+read the command line: 
+    open file A with a universe of assets, and store as ifstream ifa;
+    open file B with asset correlations, and store as ifstream ifb;
+    if there is no option "-r", go to unrestricted circumstance; else, go to restricted circumstance
+
+prepare Optimization Equation:
+    get rate of returns and standard deviations:(vector a and b in heap...)
+        take ifa, read each line; 
+            get the average rate of return for asset, store it in vector a;
+            get the standard deviation for asset, store it in vector b;
+
+    get covariance matrix:(vector<vector> c in heap)
+        take ifb, read each line;
+            store each element in vector<vector> c;
+        for each row in c:
+            for each column in c:
+                if column = row:
+                    replace c[row][column] with (b[column])^2;
+                else:
+                    replace c[row][column] with c[row][column]/(b[row]*b[column])
+    
+    prepare data for left side martix for Optimization Equation: (vector<vector> e in heap)
+        (below are code to add sigma to e, .assign()能够用来完整复制吗？)
+        for each row in e, row < n:
+            for each column in e, column < n:
+                e[row][column] = c[row][column];
+
+        resize vector<vector> e, making it have 2 more rows and columns than vector<vector> c;
+        
+        (below are code to add A transpose to e)
+        for each row in e, row < n:
+            for each column in e:
+                e[row][n] = 1; (n is number of assets)
+                e[row][n+1] = a[row];
+        
+        (below are code to add A to e)
+        for each column in e[n], column < n:
+            e[n][column] = 1;
+        for each column in e[n+1], column < n:
+            e[n+1][column] = a[column];
+        
+        (below are code to add |0| to e)
+        for each row in e, numRows-2 <= row < numRows:
+            for each column in e, numCols-2 <= column < numCols:
+                e[row][column] = 0;
+
+    prepare data for right side martix for Optimization Equation: (vector f_transpose in heap)
+        resize vector f_transpose to have n+2 columns;
+        for each column in f_transpose, column < n:
+            f_transpose[column] = 0;
+        f_transpose[n] = 1;
+        f_transpose[n+1] = Rp;
+        (be aware that when you read elements of f_transpose into Eigen, you read the transpose of f_transpose into it, which is just f)
+        （或者说有什么其他办法可以精确定位Eigen里面的matrix的每一个位置，通过m(i,j)=a[i][j]这样赋值？）
+
+    calculation of answer vector through Eigen:(vector ans in heap)
+        resize vector ans to have n columns; 
+        load data for left side matrix into MartixXd A;
+        load data for right side matrix into VectorXd B;
+        use Eigen to get the answer vector;
+        for each column in answer vector, column < n:
+            store it in ans[column];
+
+restricted circumstance:(take vector ans)
+    prepare data for new left side matrix for Optimization Equation:(vector<vector> g in heap)
+        size_t flag = 0;
+        for each column in ans:(也可以一次性记录有多少负值，一次性扩容vector<vector> e)
+            if ans[column] < 0:
+                size_t index = column;
+                resize vector<vector> g, making it have 1 row and 1 column more that before;
+                copy all elements from e into g;(可以用循环，如果能用assign那更好)
+
+                (below are code to fill all blank slots with 0)
+                for each row in g:
+                    g[row][n+2+flag] = 0;
+                for each column in g[n+2+flag]:
+                    g[n+2+flag][column] = 0;
+
+                (below are code to replace the corresponding slots with 1)
+                g[n+2+flag][index] = 1;
+                g[index][n+2+flag] = 1;
+
+                flag++;
+
+    prepare data for new right side matrix for Optimization Equation:(vector h_transpose in heap)
+        resize vector h_transpose to have n+2+flag columns;
+        copy all elements from f_transpose into h_transpose;
+        for i = 0, i < flag, i++:
+            h_transpose[n+2+i] = 0
+    
+    calculation of restricted answer vector through Eigen:(vector ans_res in heap)(与上面计算代码几乎完全一样，或许可以复用上面代码)
+        resize vector ans_res to have n columns; 
+        load data for left side matrix into MartixXd A;
+        load data for right side matrix into VectorXd B;
+        use Eigen to get the answer_res vector;
+        for each column in answer_res vector, column < n:
+            store it in ans_res[column];  
+
+calculation of corresponding volatility:(takes vector<vector> c, vector ans or vector ans_res)
+    sum = 0;
+    temp = 0;
+    for each row in c:
+        for each column in c:
+            temp = ans[row] * ans[column] * c[row][column];(same for ans_res, not going to show here)
+            sum += temp;
+    sum /= 2;
+    sigma = sum.squareRoot(不知道咋算，或许有公式, 到这里一个Rp所对应的最小投资组合风险就算出来了，注意一共有26个Rp)
+
+
+
+main():
+    read the command line;
+    get rate of returns and standard deviations;
+    get covariance matrix;
+
+    vector all_sigma;
+    prepare data for left side matrix for Optimization Equation;
+    for Rp from 1% to 26%:
+        prepare data for right side matrix for Optimization Equation;
+        calculation of answer vector through Eigen;
+        if no "-r" in commandline:
+            calculation of corresponding volatility;
+            all_sigma.pushback(sigma);
+        if yes "-r" in commandline:
+            prepare data for new left side martix for Optimization Equation;
+            prepare data for new right side martix for Optimization Equation;
+            calculation of restricted answer vector through Eigen;
+            calculation of corresponding volatility;
+            all_sigma.pushback(sigma);
+    现在应该已经获得全部所需的波动率数据了，和Rp一一对应以表格的形式打印出来吧
+
+
+
+
+
+
+            
+
+
+    
+
+            
+
+        
+
+
+
+
+

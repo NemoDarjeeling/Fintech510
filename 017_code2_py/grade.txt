@@ -1,0 +1,44 @@
+Grading at 09/07/2022:01:58:07.410258
+For commit ID f6f370f55127577e965abee951dd086b0ada646d
+Grading at Tue Sep  6 09:58:07 PM EDT 2022
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.022s
+
+OK
+Grading at Tue Sep 06 21:58:07  2022
+Expected output:
+Here is a triangle with height 4
+*
+**
+***
+****
+That triangle had 10 total stars
+Here is a triangle with height 7
+*
+**
+***
+****
+*****
+******
+*******
+That triangle had 28 total stars
+Output received:
+Here is a triangle with height 4
+*
+**
+***
+****
+That triangle had 10 total stars
+Here is a triangle with height 7
+*
+**
+***
+****
+*****
+******
+*******
+That triangle had 28 total stars
+Test Passed
+
+Overall Grade: PASSED

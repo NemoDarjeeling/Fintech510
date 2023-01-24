@@ -1,0 +1,38 @@
+1. Create a file "answer.txt".
+2. Execute the following code by hand as demonstrated with
+   the memory/trace diagrams in class.  
+   Write the output in your "answer.txt" file
+3. Submit your answer.txt file for grading
+
+def anotherFunction(a, b):
+  answer = 42
+  x = 0
+  print(f"In anotherFunction({a},{b})")
+  while (b > a):
+    print("a is {}, b is {}".format(a,b))
+    answer = answer + (b - a)
+    b -= x
+    a += x // 2
+    x+=1
+
+  return answer
+
+def someFunction(x, y):
+  a = x + y
+  if (x < y):
+    for i in range(x):
+      print("In the loop with i = {}, a = {}".format(i,a));
+      a = a + x
+  else:
+    y = anotherFunction(y,a+4)
+  return a * y
+
+
+x = 2
+a = someFunction(x,3)
+print("a =", a)
+print("x =", x)
+b = someFunction(3,x)
+print("b =", b)
+print("x =", x)
+

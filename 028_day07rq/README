@@ -1,0 +1,76 @@
+This is your next "reading quiz."  As with other reading quizzes,
+you should read the following Jupyter notebook:
+  - "17-Validation,ExceptionsAndErrorHandling"
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+
+1. What is the WORST possible way to deal with an error?
+   A. Print an error message.
+   B. Retry the operation.
+   C. Crash the program.
+   D. Fail silently.
+
+2. Reliable software requires
+   A. error prevention
+   B. error detection
+   C. error recovery
+   D. defect-free code
+   E. assert statements
+   F. A, B
+   G. A, B, C
+   H. A, B, C, E
+   I. All of the above 
+
+3. (True/False) Input validation is generally not required for internal 
+   sources (e.g., a file that was previously saved by the system).
+   A. True
+   B. False
+
+4. (True/False) Exceptions continue the normal execution sequence when
+   they arise.
+   A. True
+   B. False
+
+5. Which Python statement handles errors when they occur:
+   A. raise
+   B. except
+   C. try
+   d. assert
+
+6. Which Python statement is used to initiate a specified exception:
+   A. raise
+   B. except
+   C. try
+   D. assert
+
+7. (True/False) The top of a stack trace show the most recent call 
+   from the stack. 
+   A. True
+   B. False
+
+8. (True/False) It's only necessary to consider the developer and their
+   ability to maintain software when writing error messages.
+   A. True
+   B. False
+
+9. (True/False) At every point in code, an invariant must true.
+   A. True
+   B. False
+
+10. (True/False) Assertion should not be used to validate input parameters
+   as they can be disabled at runtime.
+   A. True
+   B. False
+
+11. (True/False) For multiple `except` blocks under a single try, it is not
+   necessary to list them in a specific order, the interpreter will look at 
+   the different possibilities and choose the most appropriate choice.  
+   A. True
+   B. False    

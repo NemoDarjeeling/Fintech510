@@ -1,0 +1,50 @@
+Grading at 12/07/2022:14:55:54.517184
+For commit ID 7236d8b7b21e71076f66d8896a103e372446356f
+Grading at Wed Dec  7 09:55:45 AM EST 2022
+Thank you for submitting random story!
+You have a Makefile--great!
+Trying to run 'make rand_story'
+g++ -o rand_story randStoryTest.cpp
+make succeeded--great!
+make produced rand_story---great!
+Trying to the testcase in the README to sanity check your output...
+  - Valgrind reported errors
+Either you had valgrind errors, or went into an infinite loop...
+
+Compiling rand_story
+make: 'rand_story' is up to date.
+
++-----------------------------------------------------------------------+
+Error test case rand_story story.txt words.txt  
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Error test case rand_story story.txt words.txt 1 5
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Error test case rand_story story_invalid.txt words.txt 1 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Error test case rand_story story.txt words_invalid.txt 1 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Error test case rand_story story.txt words.txt number 
+Your program successfully indicated a failure case
++-----------------------------------------------------------------------+
+Test case rand_story story.txt words.txt 1
+Your file matched the expected output
++-----------------------------------------------------------------------+
+Test case rand_story story.txt words.txt 2
+Your file matched the expected output
++-----------------------------------------------------------------------+
+Test case rand_story story.txt words.txt 3
+Your file matched the expected output
++-----------------------------------------------------------------------+
+Test case rand_story story.txt words.txt 4
+Your file matched the expected output
++-----------------------------------------------------------------------+
+Test case rand_story story.txt words.txt 5
+Your file matched the expected output
+
+Overall Grade: 100
+
+Overall Grade: A

@@ -1,0 +1,62 @@
+Things to consider when implementing error handing:
+
+Is your '-r' option really optional? It should be.
+
+Do you check for two files as command line arguments? //???
+
+Do you verify that each file exists?
+
+Do you verify that each file has all required values?
+
+For example, if it's an N by N matrix, does each of the N rows have N numeric values?
+
+Do you accept spaces in asset names?
+
+Do you verify that each input that should be numeric is numeric?
+
+For this assignment, values that should be numeric but aren't (nulls, spaces, words, etc...) can be reported as errors.
+
+Testcases:
+incorrect number of command lines!
+//(blank)
+//universe.csv
+
+"Only accept filenames and '-r' option!"
+//-m unviverse.csv correlation.csv
+
+universe file open fails!
+//universe_err0.csv
+
+universe file is empty!
+//universe_err1.csv
+
+encounter non-numeric input!
+//universe_err2.csv
+
+a name field does not have its required value in universe file!
+//universe_err3.csv
+
+correlation file open fails!
+//correlation_err0.csv
+
+correlation file is empty!
+//correlation_err1.csv
+
+encounter non-numeric input!
+//correlation_err2.csv
+
+unmatched number for asset names and number for correlations(numColumn)
+//correlation_err3.csv
+
+unmatched number for asset names and number for correlations(numRow)
+//correlation_err4.csv
+
+data value incorrect in correlation matrix!
+//correlation_err5.csv
+
+more data in universe file than required
+//universe_err4.csv
+
+more data in correlation file than required
+//correlation_err6.csv
+//correlation_err7.csv

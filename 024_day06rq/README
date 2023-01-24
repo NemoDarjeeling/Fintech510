@@ -1,0 +1,79 @@
+This is your next "reading quiz."  As with other reading quizzes,
+you should read the following Jupyter notebooks:
+  - "15-Recursion" 
+  - "16-Modules"
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+
+1. What is a base case?
+   A. The pre-specified white box test cases and their answers.
+   B. The case that you work by hand when you develop the algorithm.
+   C. The inputs for which the algorithm can give an answer without 
+      calling itself.
+   D. The most numerous types of inputs, which are the ones that are 
+      answered  with reference to itself.
+
+2. How would you go about showing that your recursive algorithm always 
+   terminates?
+   A. Show that you always subtract a positive number from the argument
+      in every recursive call.
+   B. Show that you have a base case in your algorithm.
+   C. Show that every recursive call passes an argument which is 
+      "smaller than" the argument received by the current call under the 
+      ordering you have chosen.
+   D. Apply Godel's Incompleteness Theorem to the problem at hand.
+
+3. Which of the following terms describes a pair of functions (e.g., f and g)
+   where can f calls g, g calls h, and h  calls f?
+   A. Tail recursion
+   B. Indirect recursion
+   C. Pairwise induction
+   D. Strong induction 
+
+4. Recursively traversing a directory structure exemplifies what type of 
+   recursion?
+   A. head 
+   B. indirect
+   C. numerical
+   D. structural
+   E. tail
+
+5. (True/False) Recursive functions can be called an unlimited number of times 
+   until the memory is exhausted.
+   A. True
+   B. False
+
+6. (True/False) In tail recursion, we perform the function's processing first,
+   and then make the recursive call.
+   A. True
+   B. False
+
+7. (True/False) In head recursion, we always check for the base condition first
+   before making a recursive call.
+   A. True
+   B. False
+
+8. Which of the following functions may be performed in a wrapper function:
+   A. Validating parameters
+   B. Calling a recursive function
+   C. Handling errors
+   D. Initializing parameters
+   E. All of the above
+   F. A, B, D
+
+9. (True/False) "from module import *" is a good programming practice as less
+   typing is required to use functions and other items defined in that module.
+   A. True
+   B. False
+
+10. (True/False) The python interpreter loads a separate instance of a module
+   every time it appears in an import statement.
+   A. True
+   B. False

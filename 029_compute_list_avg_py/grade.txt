@@ -1,0 +1,23 @@
+Grading at 09/19/2022:17:30:27.542373
+For commit ID 50450a3267e6a7e3f97e723768c497c8ba9939a7
+Grading at Mon Sep 19 01:30:27 PM EDT 2022
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+Grading at Mon Sep 19 13:30:27  2022
+Testing: [-45.56, 123.42, 99.845]
+Passed: [-45.56, 123.42, 99.845]
+Testing: [77, 33, 19, 99, 42, 6, 27, 4]
+Passed: [77, 33, 19, 99, 42, 6, 27, 4]
+Testing: [45.2, 'string', 3, 0, 'test']
+Passed: [45.2, 'string', 3, 0, 'test']
+Testing: ['string', -1, 0, 1007]
+Passed: ['string', -1, 0, 1007]
+Testing: [425, 59, -3, 77.0, 0, 36]
+Passed: [425, 59, -3, 77.0, 0, 36]
+Testing empty list and strings only in list
+Testing wrong parameter type
+
+Overall Grade: PASSED

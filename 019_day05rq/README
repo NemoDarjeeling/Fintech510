@@ -1,0 +1,71 @@
+This is your next "reading quiz."  As with other reading quizzes,
+you should read the following Jupyter notebooks:
+  - "13-Dictionaries" 
+  - "14-Files"
+
+Make sure you understand the material in it (which may require 
+re-reading all or part of it,asking questions, etc), BEFORE attempting 
+this quiz.  This quiz will check your basic understanding of the 
+material before you move on to other, more in-depth exercises.
+
+As always, place your answers in "answers.txt" (one per line), and
+submit as usual.
+
+1. Which function returns the number of elements in a dictionary?  
+   A. count()
+   B. length()
+   C. len()
+   D. size()
+
+2. (True/False) Dictionaries can continue multiple entries with the same key.
+   A. True
+   B. False
+
+3. (True/False) Lists can be a key for a dictionary entry
+   A. True
+   B. False
+
+4. From an O(N) runtime cost perspective, which operation executes fastest?
+   A. checking if a value exists in a list
+   B. inserting an element at the start of a list
+   C. removing an element at the start of a list
+   D. removing an element at the end of a list
+
+5. (True/False) Dictionaries can have have Python object as a value.
+   A. True
+   B. False
+
+6. What is the default mode for open()?
+   A. read binary file
+   B. read text file
+   C. write binary file
+   D. write text file
+
+7. (True/False) To optimize execution speed, resources should be left open.  
+   A. True
+   B. False
+   
+8. Which of the following are attributes of a files?
+   A. name
+   B. type
+   C. owner
+   D. creation timestamp
+   E. deletion timestamp
+   F. A, B, C, D
+   G. A, C, D
+   H. A, B, E
+
+9. For reading large text files composed of multiple lines, which
+   of these methods is most appropriate?
+   A. read()
+   B. readline()
+   C. readlines()
+   D. treat the file as an iterator (e.g., for line in f)
+   E. All of the above
+   F. A, D
+   G, B, C
+   
+10. (True/False) Just like the print() function, write() 
+    adds a newline character.
+   A. True
+   B. False

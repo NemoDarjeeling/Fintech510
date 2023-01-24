@@ -1,0 +1,10 @@
+Grading at 10/20/2022:02:07:04.181243
+For commit ID 2736d074cacdf955b71014c1d6bd311e9f48c620
+Grading at Wed Oct 19 10:07:04 PM EDT 2022
+Attempting to compile test.c
+gcc -o test test.c
+compiled
+Your file matched the expected output
+Your output matched what we expected
+
+Overall Grade: A
